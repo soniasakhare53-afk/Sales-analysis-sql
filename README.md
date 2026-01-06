@@ -25,7 +25,13 @@ The database is designed using relational modeling and consists of five tables:
 - order_items  
 - payments  
 
-Foreign key constraints are used to maintain referential integrity between tables.
+### 📋 Tables Overview
+The following screenshot shows all tables created for this project:
+
+![Tables List](screenshots/tables.png)
+
+### 🔗 Entity Relationship Diagram (ERD)
+The ER diagram below shows the relationships between tables using primary and foreign keys:
 
 ![ER Diagram](screenshots/er_diagram.png)
 
