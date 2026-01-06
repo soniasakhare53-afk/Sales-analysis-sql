@@ -1,6 +1,5 @@
-# Sales-analysis-sql
-End-to-end Sales Analysis project using MySQL with real-world schema, foreign keys, and business insights.
 # Sales Analysis using SQL (MySQL)
+End-to-end Sales Analysis project using MySQL with real-world schema, foreign keys, and business insights.
 
 ## 📌 Project Overview
 This project is an end-to-end Sales Analysis system built using MySQL.
@@ -50,19 +49,48 @@ Below is an example of a monthly revenue analysis query and its output:
 ---
 
 ## 📂 Project Structure
-sales-analysis-sql/
+Sales-analysis-sql/
+│
 ├── schema/
-│ └── create_tables.sql
+│   └── create_tables.sql
+│       # Contains all CREATE TABLE statements
+│       # Defines primary keys, foreign keys, and relationships
+│
 ├── data/
-│ └── insert_data.sql
+│   └── insert_data.sql
+│       # Contains INSERT statements
+│       # Populates tables with realistic sales data
+│
 ├── analysis/
-│ └── sales_queries.sql
+│   └── sales_queries.sql
+│       # Contains business-focused SQL queries
+│       # Revenue analysis, joins, aggregations, insights
+│
 ├── screenshots/
-│ ├── tables.png
-│ ├── er_diagram.png
-│ └── sample_output.png
+│   ├── tables.png
+│   │   # Screenshot showing all database tables
+│   ├── er_diagram.png
+│   │   # ER diagram representing table relationships
+│   └── sample_output.png
+│       # Screenshot of SQL query and its output
+│
 └── README.md
+    # Project documentation and explanation
 
+
+---
+
+## 📜 SQL Files
+The complete SQL code for this project is organized as follows:
+
+- **Table Creation (DDL)**  
+  `schema/create_tables.sql`
+
+- **Data Insertion (DML)**  
+  `data/insert_data.sql`
+
+- **Analysis Queries**  
+  `analysis/sales_queries.sql`
 
 ---
 
